@@ -1,6 +1,4 @@
-package Training;
-
-import org.openqa.selenium.WebDriver;
+package test_java;
 
 import java.util.Scanner;
 

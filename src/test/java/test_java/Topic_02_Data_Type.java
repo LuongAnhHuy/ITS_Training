@@ -1,4 +1,4 @@
-package Training;
+package test_java;
 
 import org.openqa.selenium.WebDriver;
 

@@ -1,4 +1,4 @@
-package Training;
+package test_java;
 
 
 import org.openqa.selenium.By;
@@ -22,6 +22,8 @@ public class uploadFile {
     String service1FilePath = projectPath + "\\uploadFiles\\" + service1;
     String service2FilePath = projectPath + "\\uploadFiles\\" + service2;
     String service3FilePath = projectPath + "\\uploadFiles\\" + service3;
+
+
 
     @BeforeClass
     public void beforeClass() {

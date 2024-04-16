@@ -1,7 +1,4 @@
-package Training;
-
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
+package test_java;
 
 public class Topic_03_Reference_Casting {
     String studentName;

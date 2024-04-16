@@ -1,4 +1,4 @@
-package Training;
+package test_java;
 
 public class Topic_01_Variable {
     static int studentNumber;
