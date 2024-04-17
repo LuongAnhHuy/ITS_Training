@@ -12,7 +12,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.seleniumhq.jetty9.http.Syntax;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 
@@ -34,7 +33,7 @@ public class Topic_06_Web_Element_Command_III {
 	
 	@BeforeMethod
 	public void Open_Browser() {
-		System.setProperty("webdriver.chrome.driver", projectPath + "\\browserdriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", projectPath + "\\browserDrivers\\chromedriver.exe");
 
 		driver = new ChromeDriver();
 		driver.get("http://live.techpanda.org/index.php/");
